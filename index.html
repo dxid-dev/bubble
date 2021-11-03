@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Bäbl - Bubble Simulation</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo/Logo_Light.png" alt="">
+                </a>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/home/img1.png" alt="" data-speed="-5" class="move">
+                        <img src="assets/img/home/img2.png" alt="" data-speed="1.5" class="move">
+                        <img src="assets/img/home/img3.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/home/img4.png" alt="" data-speed="2.5" class="move">
+                        <img src="assets/img/home/img5.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/home/img6.png" alt="" data-speed="3" class="move">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Bäbl</h1>
+                        <p class="home__description">Let's play with virtual bubble!</p>
+                        <a href="https://colab.research.google.com/drive/1lI2TwAAYm_ctSUzwDewWBnoHAQVPtSvp?usp=sharing" class="home__button">Go to Sandbox</a>
+                    </div>
+                </div>
+            </section>
+            <p class="footer__copy">
+                Made with <span style="color: #FF5500;">&#128293;</span> by <a href="https://dxid.my.id/" target="_blank" style="color:#99fbae"><b>dxid</b></a>
+            </p>
+        </main>
+
+        <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
